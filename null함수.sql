@@ -20,7 +20,9 @@ select employee_id,
   
 -- nullif
 select nullif( 10, 5 + 5 ) from dual;
-
+select nullif( 10, 5 + 4 ) from dual;
 
 -- coalesce   
+select coalesce( null, null, 1, 2, 3, 4 ) from dual;
+select coalesce( 10, null, 1, 2, 3, 4 ) from dual;
 
