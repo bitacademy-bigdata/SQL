@@ -47,7 +47,7 @@ order by length( region_name ) asc;
 
 
 -- 문제10
-  select distinct lower(city)
+  select distinct lower( city ) 
     from locations
-order by lower(city) asc  
+order by lower(city) asc;  
   
